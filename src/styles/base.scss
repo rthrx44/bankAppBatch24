@@ -1,0 +1,44 @@
+@import "./components/reset/reset";
+@import "./components/header/header";
+@import "./components/panels/panels";
+@import "./components/input/input";
+@import "./components/button/button";
+@import "./components/navigation/navigation";
+@import "./components/modal/modal";
+@import "./components/typewriter/typewriter";
+@import "./components/atmCards/atmCards";
+@import "./components/slider/slider";
+@import "./components/popup/popup";
+@import "./components/card/card"; 
+@import "./components/carousel/carousel";
+@import "./components/toggle/toggle";
+
+@import "./pages/banktransactions/banktransactions"; 
+@import "./pages/message/message";
+@import "./pages/login/login";
+@import "./pages/account/accounts";
+@import "./pages/dashboard/dashboard";
+@import "./pages/transactions/transactions";
+@import "./pages/loading/loading";
+@import "./pages/adminAccount/adminAccount";
+@import "./pages/loading/loading"; 
+@import "./pages/expenses/expenses";
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  overflow: hidden;
+  background-color: #0c0c0c;
+  user-select: none;
+}
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

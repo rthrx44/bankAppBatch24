@@ -1,0 +1,15 @@
+.header-container {
+  position: fixed;
+  width: 100%;
+  min-height: 4.5rem;
+  height: fit-content;
+  background-color: #2B2223;
+  background-color: #0f0f0f;
+  z-index: 1;
+  padding: 0 1rem;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  color: #ccc
+}
